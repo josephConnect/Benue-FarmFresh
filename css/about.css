@@ -1,0 +1,70 @@
+h5 {
+  font-family: "Garamond";
+  font-weight: 500;
+}
+
+.banner-section {
+  width: 100%;
+  height: 65rem;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.08),
+      rgba(0, 0, 0, 0.08)
+    ),
+    url(../img/benue-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+  padding: 0 8rem;
+}
+
+.about-container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.about-benue-section {
+  background: #edf6ed;
+}
+
+.benue-introduction {
+  padding-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.secondary-heading span {
+  color: #ffedcc;
+}
+
+.banner-paragraph {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.about-heading {
+  font-size: 2.6rem;
+  color: #ffa500;
+  padding-top: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-paragraph {
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.future-outlook p:last-child {
+  margin-bottom: 0;
+}
