@@ -68,3 +68,11 @@ h5 {
 .future-outlook p:last-child {
   margin-bottom: 0;
 }
+
+/* Responsive and mobile design */
+
+@media (max-width: 32em) {
+  .banner-section {
+    padding: 0 2rem;
+  }
+}
