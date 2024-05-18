@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/product.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/index-style.css" />
+    <link rel="stylesheet" href="/css/products.css" />
+
+    <title>Products | Benue FarmFresh</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <p class="nav-logo">
+        <span class="benue-span">Benue</span
+        ><span class="farm-span">FarmFresh</span>
+      </p>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-links" href="/index.html">Home</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-links" href="/about-benue.html">About Benue</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-links" href="/products.html">Products</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-links" href="#">Prices</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-links" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- ***********BANNER SECTION************** -->
+      <section class="banner-section"></section>
+
+      <!--************PRODUCTS CATEGORY SECTION************* -->
+      <section class="product-category-section">
+        <div class="container">
+          <div class="category-grid">
+            <div class="category">
+              <p class="category-heading">Catergories</p>
+
+              <ul class="product-categories">
+                <li class="product-category">
+                  <button class="btn product-btn-tubers">Tubers</button>
+                  <div class="tubers-menu hidden">
+                    <span class="menu yam-menu">Yam</span>
+                    <span class="menu cassava-menu">Cassava</span>
+                    <span class="menu">Cocoyam</span>
+                    <span class="menu">Potatoes</span>
+                  </div>
+                </li>
+                <li class="product-category">
+                  <button class="btn product-btn-fruits">Fruits</button>
+                  <div class="fruits-menu hidden">
+                    <span class="menu">Oranges</span>
+                    <span class="menu">Mangoes</span>
+                    <span class="menu">Pineapples</span>
+                    <span class="menu">Bananas</span>
+                  </div>
+                </li>
+
+                <li class="product-category">
+                  <button class="btn product-btn-legumes">Legumes</button>
+                  <div class="legumes-menu hidden">
+                    <span class="menu">Beans</span>
+                    <span class="menu">soyabeans</span>
+                    <span class="menu">Groundnut</span>
+                    <span class="menu">Cowpeas</span>
+                  </div>
+                </li>
+
+                <li class="product-category">
+                  <button class="btn product-btn-vegetables">Vegetables</button>
+                  <div class="vegetables-menu hidden">
+                    <span class="menu">Tomatoes</span>
+                    <span class="menu">Pepper</span>
+                    <span class="menu">Okra</span>
+                    <span class="menu">Cabbage</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Product Container -->
+<div class="product"></div>
+           <!-- Yam -->
+            <div class="yam-product hidden">
+              <div class="img-container">
+                <img class="product-img" src="/img/Yam-Big.png" alt="yam" />
+              </div>
+              <div class="product-content">
+                <p class="product-name">Yam</p>
+                <div class="description-container">
+                  <p class="product-description">Description</p>
+                  <button
+                    id="product-detail-button"
+                    class="product-detail-button"
+                  >
+                    More Info.
+                  </button>
+                </div>
+                <p class="description">
+                  Yam is a staple crop in Nigeria and holds cultural
+                  significance in many communities. In Benue State, yam
+                  cultivation is widespread, with farmers employing traditional
+                  methods such as mounding and staking to grow this tuberous
+                  root crop. Yam farms can be found across the state,
+                  particularly in areas with fertile soils and adequate
+                  rainfall. The markets in Benue State are well-supplied with
+                  fresh yams, and the crop is also transported to other parts of
+                  Nigeria for sale.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cassava -->
+            <div id="cassava-product" class="cassava-product hidden">
+              <div class="img-container">
+                <img class="product-img" src="/img/Yam-Big.png" alt="yam" />
+              </div>
+              <div class="product-content">
+                <p class="product-name">Cassava</p>
+                <div class="description-container">
+                  <p class="product-description">Description</p>
+                  <button
+                    id="product-detail-button"
+                    class="product-detail-button"
+                  >
+                    More Info.
+                  </button>
+                </div>
+                <p class="description">
+                  Yam is a staple crop in Nigeria and holds cultural
+                  significance in many communities. In Benue State, yam
+                  cultivation is widespread, with farmers employing traditional
+                  methods such as mounding and staking to grow this tuberous
+                  root crop. Yam farms can be found across the state,
+                  particularly in areas with fertile soils and adequate
+                  rainfall. The markets in Benue State are well-supplied with
+                  fresh yams, and the crop is also transported to other parts of
+                  Nigeria for sale.
+                </p>
+              </div>
+            </div>
+          </div>
+<div class="more-description-js" id="more-description-js"></div>
+          <div class="more-description hidden">
+            <p>Importance of Yam in Benue State.</p>
+            <ul>
+              <li>
+                Yam is one of the most important food crops in Benue State, with
+                a long history of cultivation and consumption.
+              </li>
+              <li>
+                Yam is a staple food in the diet of the people of Benue State
+                and is consumed in various forms, such as pounded yam, yam
+                porridge, and yam flour dishes
+              </li>
+            </ul>
+            <p>Cultivation of Yam in Benue State:</p>
+            <ul>
+              <li>
+                Benue State has favorable agro-climatic conditions for yam
+                cultivation, including fertile soil, adequate rainfall, and
+                suitable temperatures.
+              </li>
+              <li>
+                Yam cultivation in Benue State is predominantly done by
+                smallholder farmers using traditional farming methods.
+              </li>
+              <li>
+                The main yam varieties cultivated in Benue State include
+                Dioscorea rotundata (white yam), Dioscorea alata (water yam),
+                and Dioscorea cayenensis (yellow yam).
+              </li>
+            </ul>
+            <p>Planting and Harvesting:</p>
+            <ul>
+              <li>
+                Benue State has favorable agro-climatic conditions for yam
+                cultivation, including fertile soil, adequate rainfall, and
+                suitable temperatures.
+              </li>
+              <li>
+                Yam cultivation in Benue State is predominantly done by
+                smallholder farmers using traditional farming methods.
+              </li>
+              <li>
+                The main yam varieties cultivated in Benue State include
+                Dioscorea rotundata (white yam), Dioscorea alata (water yam),
+                and Dioscorea cayenensis (yellow yam).
+              </li>
+            </ul>
+            <p>Planting and Harvesting:</p>
+            <ul>
+              <li>
+                Benue State has favorable agro-climatic conditions for yam
+                cultivation, including fertile soil, adequate rainfall, and
+                suitable temperatures.
+              </li>
+              <li>
+                Yam cultivation in Benue State is predominantly done by
+                smallholder farmers using traditional farming methods.
+              </li>
+              <li>
+                The main yam varieties cultivated in Benue State include
+                Dioscorea rotundata (white yam), Dioscorea alata (water yam),
+                and Dioscorea cayenensis (yellow yam).
+              </li>
+            </ul>
+            <p>Planting and Harvesting:</p>
+            <ul>
+              <li>
+                Benue State has favorable agro-climatic conditions for yam
+                cultivation, including fertile soil, adequate rainfall, and
+                suitable temperatures.
+              </li>
+              <li>
+                Yam cultivation in Benue State is predominantly done by
+                smallholder farmers using traditional farming methods.
+              </li>
+              <li>
+                The main yam varieties cultivated in Benue State include
+                Dioscorea rotundata (white yam), Dioscorea alata (water yam),
+                and Dioscorea cayenensis (yellow yam).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER SECTION -->
+      <!-- ***************FOOTER SECTION********************** -->
+      <footer class="footer-section">
+        <div class="container">
+          <div class="grid grid grid--footer">
+            <div class="about">
+              <p class="about-us">About Us</p>
+              <p class="about-text">
+                Our website is dedicated to promoting and showcasing
+                agricultural products from Benue State. Our mission is to
+                highlight the rich diversity and quality of agricultural
+                products from this region, and to support local farmers and
+                producers in reaching a wider audience. Through our platform, we
+                aim to raise awareness about the agricultural potential of Benue
+                State and encourage consumers to support and appreciate the
+                efforts of its farmers
+              </p>
+            </div>
+            <div class="contact">
+              <p class="contact-us">Contact Us</p>
+              <div class="about-text about-correct">
+                <div class="contact-info">
+                  <span
+                    ><ion-icon
+                      class="contact-icon"
+                      name="logo-whatsapp"
+                    ></ion-icon></span
+                  >07036416653
+                </div>
+                <div class="contact-info">
+                  <span
+                    ><ion-icon
+                      class="contact-icon"
+                      name="send-outline"
+                    ></ion-icon></span
+                  >teghteghtorkuma123@gmail.com
+                </div>
+                <div class="contact-info">
+                  <span
+                    ><ion-icon
+                      class="contact-icon"
+                      name="call-outline"
+                    ></ion-icon></span
+                  >07036416653
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="footer-border" />
+        </div>
+
+        <div class="container footer-links">
+          <p class="copy-right">
+            Copyright &copy; 2024 by Benue FarmFresh, Inc. All rights reserved.
+          </p>
+          <div>
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

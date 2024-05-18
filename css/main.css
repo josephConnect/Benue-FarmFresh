@@ -43,7 +43,7 @@ body {
   /* background: #fff; */
   font-weight: 500;
   /* box-shadow: 2rem 0 3rem 3rem rgba(0, 0, 0, 0.2); */
-  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.055);
+  /* box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.055); */
   z-index: 1;
   position: relative;
 }
@@ -71,9 +71,16 @@ header .nav-logo {
   list-style: none;
 }
 
-.main-nav-links {
+.main-nav-links:link,
+.main-nav-links:visited {
   text-decoration: none;
   color: #000;
+}
+
+.main-nav-links:hover,
+.main-nav-links:active {
+  color: #4da64d;
+  font-weight: 600;
 }
 
 .benue-span {
@@ -146,4 +153,9 @@ header .nav-logo {
   font-size: 2.5rem;
   line-height: 2;
   margin-bottom: 3rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem rgba(230, 125, 34, 0.5);
 }
