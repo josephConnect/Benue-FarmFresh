@@ -1,5 +1,5 @@
 .contact-header {
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.055);
 }
 
@@ -163,7 +163,7 @@ iframe:focus {
   }
 
   .contact-header {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
 
   .address {
@@ -215,7 +215,7 @@ iframe:focus {
 /* 400px */
 @media (max-width: 25em) {
   .contact-header {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
   }
 
   .container {
@@ -225,6 +225,10 @@ iframe:focus {
   .contact-info-grid {
     margin-top: 3rem;
     grid-template-columns: 1fr;
+  }
+
+  .address-container-content {
+    padding: 2rem 0;
   }
 
   .contact-info-grid {
@@ -239,6 +243,7 @@ iframe:focus {
 
   .address,
   .logo {
+    font-size: 1.2rem;
     padding: 1rem;
   }
 
@@ -251,5 +256,13 @@ iframe:focus {
   .address-heading {
     font-size: 2rem;
     padding: 2rem;
+  }
+}
+
+/* 368px  */
+
+@media (max-width: 23em) {
+  .address {
+    font-size: 1.2rem;
   }
 }
