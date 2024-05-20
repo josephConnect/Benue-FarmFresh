@@ -4,6 +4,10 @@ body {
   font-size: 2rem;
 }
 
+P {
+  font-family: "Open Sans";
+}
+
 .banner-section {
   background-image: linear-gradient(
       to right,
@@ -141,4 +145,79 @@ body {
 
 .hidden {
   display: none;
+}
+
+/* ************ RESPONSIVE AND MOBILE VIEW ***************** */
+/* 1472 */
+@media (max-width: 92em) {
+  .description {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+/* 1360px */
+@media (max-width: 85em) {
+  .description {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .product-name {
+    font-size: 3rem;
+
+    margin-bottom: 1.6rem;
+  }
+
+  .product-description {
+    font-size: 2.2rem;
+  }
+}
+
+/* 1104px */
+@media (max-width: 69em) {
+  .category-grid {
+    grid-template-columns: 1fr;
+    margin: 7rem;
+    row-gap: 3rem;
+  }
+}
+
+/* 800 */
+@media (max-width: 50em) {
+  .product-common {
+    grid-template-columns: 1fr;
+  }
+
+  .img-container {
+    /* border: 2px solid #e2e2e2; */
+    padding: 1rem;
+    margin: 2rem;
+  }
+
+  .description {
+    font-size: 2.4rem;
+    line-height: 1.4;
+  }
+}
+
+/* 592 */
+@media (max-width: 37em) {
+  .category-grid {
+    grid-template-columns: 1fr;
+    margin: 4rem;
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .category-grid {
+    grid-template-columns: 1fr;
+    margin: 0.6rem;
+    row-gap: 3rem;
+  }
+}
+
+/* 416px */
+@media (max-width: 26em) {
 }

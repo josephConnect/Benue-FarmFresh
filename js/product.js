@@ -44,7 +44,7 @@ document
 // CASSAVA
 document.querySelector(".cassava-menu").addEventListener("click", function () {
   document.querySelector(".product").innerHTML = "";
-  const addToProduct = `<div class="cassava-product">
+  const addToProduct = `<div class="product-common cassava-product">
   <div class="img-container">
     <img class="product-img" src="/img/Yam-Big.png" alt="yam" />
   </div>
@@ -59,17 +59,7 @@ document.querySelector(".cassava-menu").addEventListener("click", function () {
         More Info.
       </button>
     </div>
-    <p class="description">
-      Yam is a staple crop in Nigeria and holds cultural
-      significance in many communities. In Benue State, yam
-      cultivation is widespread, with farmers employing traditional
-      methods such as mounding and staking to grow this tuberous
-      root crop. Yam farms can be found across the state,
-      particularly in areas with fertile soils and adequate
-      rainfall. The markets in Benue State are well-supplied with
-      fresh yams, and the crop is also transported to other parts of
-      Nigeria for sale.
-    </p>
+ 
   </div>
 </div>`;
   document
@@ -79,7 +69,7 @@ document.querySelector(".cassava-menu").addEventListener("click", function () {
 
 //Yam Static Display
 document.querySelector(".product").innerHTML = "";
-const addToProduct = `<div class="cassava-product">
+const addToProduct = `<div class="product-common cassava-product">
   <div class="img-container">
     <img class="product-img" src="/img/Yam-Big.png" alt="yam" />
   </div>
@@ -119,7 +109,7 @@ document.querySelector(".yam-menu").addEventListener("click", function () {
 
   const yamDetail = `Yam more description loading`;
 
-  const addToProduct = `<div class="cassava-product">
+  const addToProduct = `<div class="product-common cassava-product">
   <div class="img-container">
     <img class="product-img" src="/img/Yam-Big.png" alt="yam" />
   </div>
